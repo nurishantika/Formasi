@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Formasi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Formasi</string>
+    <string name="nav_header_subtitle">38 and 37</string>
+    <string name="nav_header_desc">Formasi</string>
+
+    <string name="menu_beasiswa">Beasiswa</string>
+    <string name="menu_internship">Internship</string>
+    <string name="menu_seminar">Seminar</string>
+    <string name="menu_info">Tentang Formasi</string>
+    <string name="menu_profil">Profil Pembuat</string>
+
+    <string name="hint_password">hint Passowrd</string>
+    <string name="hint_username">hint Username</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.internship.InternshipDetailActivity"
+    android:background="#FFFFFF"
+    tools:showIn="@layout/internship_activity_detail">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/InternshipNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="32dp"
+                android:text="Nama Internship"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/InternshipPhotoDetail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="72dp"
+                android:layout_marginTop="32dp"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/internship_logo"/>
+
+            <TextView
+                android:id="@+id/internshipJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="30dp"
+                android:text="Job Internship"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/InternshipDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:text="Tanggal Internship"
+                android:textColor="@color/titleText"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/InternshipDeskripsiDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:padding="6dp"
+                android:text="Deskripsi"
+                android:textAlignment="center"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/buttonLink"
+                android:layout_width="200dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="32dp"
+                android:background="@color/colorPrimary"
+                android:text="Info Lengkap"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
